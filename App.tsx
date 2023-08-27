@@ -56,5 +56,5 @@ const styles = StyleSheet.create({
   },
   durationContainer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'center', padding: 10 },
   durationLabel: { margin: 10 },
-  button: { margin: 10, padding: 0 },
+  button: { borderRadius: 10, height: 53, margin: 10 },
 });

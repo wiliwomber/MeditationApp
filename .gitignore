@@ -3,6 +3,9 @@
 # dependencies
 node_modules/
 
+# TODOS
+todo.md
+
 # Expo
 .expo/
 dist/
