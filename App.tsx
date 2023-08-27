@@ -73,7 +73,7 @@ const HomeScreen = () => {
         <ProgressBar progress={progress} style={styles.progressBar} />
         : <>
           <View style={styles.durationContainer}>
-            <NumericInput minValue={0} rounded rightButtonBackgroundColor={theme['color-primary-500']} borderColor={theme['color-primary-500']} textColor="white" leftButtonBackgroundColor={theme['color-primary-500']} value={durationInSeconds} step={5} onChange={value => setDurationInSeconds(value)} />
+            <NumericInput minValue={0} rounded rightButtonBackgroundColor={theme['color-primary-500']} borderColor={theme['color-primary-500']} textColor="white" leftButtonBackgroundColor={theme['color-primary-500']} value={durationInSeconds / 60} step={5} onChange={value => setDurationInSeconds(value * 60)} />
             <Button disabled={durationInSeconds === 0} style={styles.button} onPress={() => startMeditation(durationInSeconds)}>Start</Button>
           </View>
         </>
