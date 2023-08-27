@@ -1,5 +1,5 @@
 {
-  "name": "mediationapp",
+  "name": "mediation",
   "author": "wiliwomber",
   "version": "0.0.1",
   "main": "node_modules/expo/AppEntry.js",
@@ -14,13 +14,13 @@
     "@ui-kitten/components": "^5.3.1",
     "expo": "~49.0.8",
     "expo-av": "~13.4.1",
+    "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-numeric-input": "^1.9.1",
     "react-native-sound": "^0.11.2",
-    "react-native-svg": "^13.13.0",
-    "expo-splash-screen": "~0.20.5"
+    "react-native-svg": "^13.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

@@ -1,10 +1,9 @@
 import * as eva from '@eva-design/eva';
 import { ApplicationProvider, Button, Layout, ProgressBar, Text } from '@ui-kitten/components';
 import theme from './theme.json'
-import { Audio, InterruptionModeAndroid, InterruptionModeIOS } from 'expo-av';
 import NumericInput from 'react-native-numeric-input'
-import { useEffect, useState } from 'react';
-import { Dimensions, StyleSheet, View } from 'react-native';
+import { useState } from 'react';
+import { StyleSheet, View } from 'react-native';
 import { useTimer } from './hooks/useTimer';
 import { playGong } from './utils';
 
